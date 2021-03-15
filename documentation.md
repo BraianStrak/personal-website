@@ -38,11 +38,33 @@ I love the scrolling on this website
 * Short description of me
 * Technologies I know
 * Responsive/animated buttons
-* Some sort of cool thing when scrolling (Not sure what)
+* Some sort of cool thing when scrolling or a cool transition animation between pages.
 * Link to PDF of my CV
 
 ## Design
 
-### Content
+### Layout plan
+
+* 3 link navbar: about, contact, skills  
+
+#### About section
+
+* My introduction
+* Short descriptin of me
+
+#### Skills section
+
+* Links/screenshots of projects
+* Technologies I know
+
+#### Contact section
+
+* Social media links, github link, contact information
+
 
 ### Layout designs
+
+I want a nice animation when switching between the three pages, could do this instead of the scrolling
+
+### Colour scheme
+
