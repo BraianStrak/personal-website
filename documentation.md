@@ -68,3 +68,11 @@ I want a nice animation when switching between the three pages, could do this in
 
 ### Colour scheme
 
+I am going for a blue colour scheme, thanks coolors.co!
+
+Colours are as follows:
+Gunmetal: 253237
+Cadet: 5C6B73
+Pewter Blue: 9DB4C0
+Powder Blue: C2DFE3
+Light Cyan: E0FBFC
