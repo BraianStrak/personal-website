@@ -10,9 +10,9 @@ This file serves as documentation for the implementation of my personal website.
 
 This website will be written using the MERN stack. 
 
-I could either use bootstrap of learn a CSS pre-processor for the layout like SASS/LESS. I'm thinking bootstrap for the layout with SASS for the styling. 
+I could either use bootstrap or learn a CSS pre-processor for the layout like SASS/LESS. I'm thinking bootstrap for the layout with SASS for the styling is probably the best option. 
 
-The website will be hosted on github pages, with the database and backend hosted on mongoDB's servers and heroku.
+The website will be hosted on github pages, with the database and backend hosted on mongoDB's servers and heroku respectively.
 
 ### Inspiration
 
@@ -61,11 +61,6 @@ I love the scrolling on this website
 
 * Social media links, github link, contact information
 
-
-### Layout designs
-
-I want a nice animation when switching between the three pages, could do this instead of the scrolling
-
 ### Colour scheme
 
 I am going for a blue colour scheme, thanks coolors.co!
@@ -76,3 +71,16 @@ Cadet: 5C6B73
 Pewter Blue: 9DB4C0
 Powder Blue: C2DFE3
 Light Cyan: E0FBFC
+
+
+### Layout
+
+I want a nice animation when switching between the three pages, could do this instead of the scrolling
+
+Layout designs are present in my notepad (uploaded images pending)
+
+## Implementation
+
+I started by reminding myself of react
+
+
