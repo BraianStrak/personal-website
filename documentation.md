@@ -81,6 +81,8 @@ Layout designs are present in my notepad (uploaded images pending)
 
 ## Implementation
 
-I started by reminding myself of react
+I started by reminding myself of react. 
+
+I then used create-react-app to create an app skeleton which I will build upon. 
 
 
