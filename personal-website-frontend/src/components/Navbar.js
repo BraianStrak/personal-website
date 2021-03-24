@@ -4,10 +4,18 @@ import Contact from "./Contact"
 
 
 
-function Navbar() {
+const Navbar = (props) => {
   return (
     <div>
-      returns links to three pages
+      <button onClick={() => props.changeCurrentPage("About")}>
+            About
+      </button>
+      <button onClick={() => props.changeCurrentPage("Skills")}>
+            Skills
+      </button>
+      <button onClick={() => props.changeCurrentPage("Contact")}>
+            Contact
+      </button>
     </div>
   );
 }
