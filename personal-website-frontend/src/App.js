@@ -10,18 +10,13 @@ function App() {
 
   const [currentPage, changeCurrentPage] = useState();
 
-  //on first mount
+  //on first mount default to the about page
   useEffect(() => {
-    changeCurrentPage("Contact");
+    changeCurrentPage("About");
   }, []);
 
-  //delete this extra method after the page switch works
-  const changePage = (pageString) => {
-    console.log(pageString);
-    changeCurrentPage(pageString);
-  }
-
   //consider moving this to a different file if it gets more complex than this
+  //returns correct page based on currentPage prop value
   const PageContent = (props) => {
     if(props.page === "Contact") {
       return < Contact />;
@@ -32,13 +27,12 @@ function App() {
     return <About/>
   }
 
-
   return (
-    <div className="App">
-      hi
-      < Navbar changeCurrentPage = {changePage}/>
-      < PageContent page = {currentPage} />
-      hi
+    <div className = "container-fluid m-0 p-0 primary-background">
+      <div className = "col">
+        < PageContent page = {currentPage} />
+      </div>
+      < Navbar changeCurrentPage = {changeCurrentPage}/>
     </div>
   );
 }

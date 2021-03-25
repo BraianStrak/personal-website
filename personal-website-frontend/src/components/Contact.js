@@ -1,7 +1,7 @@
 function Contact() {
     return (
       <div>
-        Contact page
+        Contact me at b.strak99@gmail.com
       </div>
     );
   }

@@ -1,7 +1,7 @@
 function Skills() {
     return (
       <div>
-        Skills page
+        I currently specialise in the MERN stack, and have some Rails experience. 
       </div>
     );
   }
