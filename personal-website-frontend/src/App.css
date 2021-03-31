@@ -22,19 +22,20 @@
 }
 
 .primary-border {
-
+    border: 3px solid #5C6B73
 }
 
 /*---Text---*/
 
 h1 {
-
+    color: #E0FBFC;
 }
 
 h2 {
-
+    color: #C2DFE3;
 }
 
 h3 {
 
 }
+

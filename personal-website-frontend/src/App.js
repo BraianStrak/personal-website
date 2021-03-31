@@ -28,11 +28,15 @@ function App() {
   }
 
   return (
-    <div className = "container-fluid m-0 p-0 primary-background">
-      <div className = "col">
-        < PageContent page = {currentPage} />
+    <div className = "container-fluid m-0 p-0 primary-background fixed-bottom fixed-top">
+      <div className = "m-3 fixed-bottom fixed-top primary-border">
+        <div className = "col h-100 w-100 p-5 d-flex align-items-center justify-content-center flex-column">
+          <div className = "row w-50">
+            < PageContent page = {currentPage} />
+          </div>
+          < Navbar changeCurrentPage = {changeCurrentPage}/>
+        </div>
       </div>
-      < Navbar changeCurrentPage = {changeCurrentPage}/>
     </div>
   );
 }

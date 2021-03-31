@@ -1,8 +1,8 @@
 function Contact() {
     return (
-      <div>
+      <h2>
         Contact me at b.strak99@gmail.com
-      </div>
+      </h2>
     );
   }
   

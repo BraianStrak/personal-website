@@ -1,10 +1,12 @@
 function About() {
     return (
       <div>
-        Hey, I'm Braian
-        <p>
-            I am a full stack developer and student based in London, England
-        </p>
+        <h1>
+            Hey, I'm Braian.
+        </h1>
+        <h2>
+            A full stack developer and student based in London, England
+        </h2>
       </div>
     );
   }
