@@ -3,7 +3,7 @@
     height: 100%
 }
 
-/*---Buttons---*/
+/*---Buttons and Navbar---*/
 
 .fade-in {
  opacity: 50%;
@@ -15,6 +15,21 @@
  transition:opacity 0.3s
 }
 
+.navbar-position {
+    position: fixed;
+    width:100%;
+}
+
+.media-icon {
+    width:30px;
+    height: 30px;
+}
+
+.media-position {
+    position:fixed;
+    bottom:30px;
+    right:30px;
+}
 
 /*---Main Page Background Styles---*/
 .primary-background {
@@ -39,3 +54,6 @@ h3 {
 
 }
 
+* {
+    border: 2px solid red;
+}

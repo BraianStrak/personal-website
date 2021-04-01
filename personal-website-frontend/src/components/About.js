@@ -5,7 +5,7 @@ function About() {
             Hey, I'm Braian.
         </h1>
         <h2>
-            A full stack developer and student based in London, England
+            A full stack developer and student based in London, England.
         </h2>
       </div>
     );
