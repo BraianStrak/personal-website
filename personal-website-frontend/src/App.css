@@ -5,26 +5,28 @@
 
 /*---Buttons and Navbar---*/
 button.grow_box::after {
-    transition: all 0.2s ease;
+    transition: all 0.35s;
     left: 0;
     right: 0;
-    top: 0;
-    bottom: 0;
-    transform: scale(0, 0);
+    top: -100%;
+    bottom: 100%;
     content: "";
     background: #5C6B73;
     position: absolute;
     z-index: -1;
-    padding: 0.25em 0.50em;
     display: block;
 }
 
 button.grow_box:hover::after {
-    transition: all 0.2s ease-out;
-    transform: scale(5, 1);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 0.2s;
 }
 
 button.grow_box {
+    width:75px;
     background: #253237;
     color: #C2DFE3;
     border: none;
