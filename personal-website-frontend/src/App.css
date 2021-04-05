@@ -35,6 +35,16 @@ button.grow_box {
     overflow: hidden;
 }
 
+button.selected_grow_box {
+    width:75px;
+    background: #5C6B73;
+    color: #C2DFE3;
+    border: none;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
 .navbar-position {
     position: fixed;
     width:100%;

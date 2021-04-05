@@ -33,7 +33,7 @@ function App() {
       <div className = "m-3 fixed-bottom fixed-top primary-border">
 
         <div className = "navbar-position">
-            < Navbar changeCurrentPage = {changeCurrentPage}/>
+            < Navbar changeCurrentPage = {changeCurrentPage} currentPage = {currentPage} />
         </div>
 
         <div className = "col h-100 w-100 p-5 d-flex align-items-center justify-content-center flex-column">
@@ -45,7 +45,7 @@ function App() {
         <div className="media-position">
             < Links />
         </div>
-        
+
       </div>
     </div>
   );
