@@ -73,13 +73,20 @@ button.selected_grow_box {
 /*---Text---*/
 
 h1 {
-    color: #E0FBFC;
+    color: #e0fbfc;
 }
 
 h2 {
-    color: #C2DFE3;
+    color: #c2dfe3;
 }
 
 h3 {
 
+}
+
+.name-mark {
+    color: #9DB4C0;
+    position:fixed;
+    bottom:20px;
+    left:25px;
 }

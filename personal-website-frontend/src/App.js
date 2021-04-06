@@ -36,6 +36,10 @@ function App() {
             < Navbar changeCurrentPage = {changeCurrentPage} currentPage = {currentPage} />
         </div>
 
+        <div className="name-mark">
+          Braian Strak
+        </div>
+
         <div className = "col h-100 w-100 p-5 d-flex align-items-center justify-content-center flex-column">
           <div className = "row w-50">
             < PageContent page = {currentPage} />
@@ -46,6 +50,7 @@ function App() {
             < Links />
         </div>
 
+        
       </div>
     </div>
   );
