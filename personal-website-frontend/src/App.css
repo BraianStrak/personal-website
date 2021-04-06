@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+*{
+    font-family: Oxygen;
+}
+
 .fill {
     min-height: 100%;
     height: 100%
@@ -74,14 +80,11 @@ button.selected_grow_box {
 
 h1 {
     color: #e0fbfc;
+    font-weight: bold;
 }
 
 h2 {
     color: #c2dfe3;
-}
-
-h3 {
-
 }
 
 .name-mark {
