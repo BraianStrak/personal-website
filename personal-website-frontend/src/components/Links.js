@@ -1,5 +1,5 @@
-import linkedin from "./linkedin.png"
-import github from "./github.png"
+import linkedin from "../assets/linkedin.png"
+import github from "../assets/github.png"
 
 function Links() {
     return (
