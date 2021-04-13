@@ -13,12 +13,12 @@ import FadeIn from 'react-fade-in';
 function Skills() {
     return (
       <div className = "col">
-        <div className="row">
+        <FadeIn delay={0} transitionDuration={600} className="row">
           <h1>I'm experienced in:</h1>
-        </div>
+        </FadeIn>
 
         
-        <FadeIn className="col d-flex flex-wrap">
+        <FadeIn delay={400} transitionDuration={600} className="col d-flex flex-wrap justify-content-center">
           <div className="col skill-wrapper d-flex flex-column align-items-center justify-content-center">
             <img className="skill-icon" src={express} alt="express icon"/>
             <h4>Express JS</h4>

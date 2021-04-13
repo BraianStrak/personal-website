@@ -8,7 +8,7 @@ function About() {
             Hey, I'm Braian.
         </h1>
         </FadeIn>
-        <FadeIn delay = {1500} transitionDuration = {600}>
+        <FadeIn delay = {800} transitionDuration = {600}>
         <h2>
             A full stack developer and Computer Science student based in London, England.
         </h2>
