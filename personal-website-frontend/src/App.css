@@ -2,7 +2,7 @@
 
 *{
     font-family: Oxygen;
-    border: 5px solid red;
+    border: 2px solid red
 }
 
 .fill {
@@ -71,16 +71,19 @@ button.selected_grow_box {
 /*---Skills section---*/
 
 .skill-wrapper {
-    width: 150px;
+    display: none;
+    min-width: 120px;
+    max-width: 120px;
     height: 110px;
     padding: 5px;
     margin: 15px;
-    border: 2px solid #9DB4C0
+    border: 3px solid #5c6b73
 }
 
 .skill-icon {
-    width: 40px;
-    height: 40px;
+    width: 28px;
+    height: 28px;
+    margin-bottom:10px;
 }
 
 /*---Main Page Background Styles---*/
@@ -97,10 +100,12 @@ button.selected_grow_box {
 h1 {
     color: #e0fbfc;
     font-weight: bold;
+    text-align: center;
 }
 
 h2 {
     color: #c2dfe3;
+    text-align: center;
 }
 
 h3 {
@@ -108,8 +113,9 @@ h3 {
 }
 
 h4 {
-    color: #e0fbfc;
+    color: #c2dfe3;
     font-size: 22px;
+    text-align: center;
 }
 
 .name-mark {
