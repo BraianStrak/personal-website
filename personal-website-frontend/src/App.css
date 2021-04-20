@@ -96,6 +96,18 @@ button.selected_grow_box {
 
 /*---Text---*/
 
+a {
+    color: #c2dfe3;
+}
+
+a:hover {
+    color: #9db4c0;
+}
+
+a:visited {
+    color: #9db4c0;
+}
+
 h1 {
     color: #e0fbfc;
     font-weight: bold;
