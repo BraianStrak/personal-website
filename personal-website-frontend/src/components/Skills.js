@@ -52,6 +52,8 @@ function Skills() {
             <h4>C++</h4>
           </div>
         </FadeIn>
+
+        <div className ="icons-link">Icons by <a className = "icons-link" rel="noreferrer" target="_blank" href = "http://www.icons8.com">Icons8.com</a></div>
       </div>
     );
   }
