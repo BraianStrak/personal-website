@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className = "container-fluid m-0 p-0 primary-background fixed-bottom fixed-top">
-      <div className = "m-3 fixed-bottom fixed-top primary-border">
+      <div className = "page-margin primary-border fixed-bottom fixed-top">
 
         <div className = "navbar-position">
             < Navbar changeCurrentPage = {changeCurrentPage} currentPage = {currentPage} />
@@ -41,7 +41,7 @@ function App() {
         </div>
 
         <div className = "col h-100 w-100 p-5 d-flex align-items-center justify-content-center flex-column">
-          <div className = "row w-50">
+          <div className = "row main-content-wrapper test-border">
             < PageContent page = {currentPage} />
           </div>
         </div>
