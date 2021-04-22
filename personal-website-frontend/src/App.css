@@ -91,9 +91,10 @@ button.selected_grow_box {
 
 @media screen and (max-width: 460px) {
     .skill-wrapper{
-        min-width: 80px;
-        max-width: 80px;
+        min-width: 90px;
+        max-width: 90px;
         height: 90px;
+        margin: 5px;
     }
 }
 

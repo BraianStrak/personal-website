@@ -29,8 +29,8 @@ function App() {
   }
 
   return (
-    <div className = "container-fluid m-0 p-0 primary-background fixed-bottom fixed-top">
-      <div className = "page-margin primary-border fixed-bottom fixed-top m-0 p-0">
+    <div className = "container-fluid m-0 primary-background fixed-bottom fixed-top">
+      <div className = "page-margin primary-border fixed-bottom fixed-top">
 
         <div className = "navbar-position">
             < Navbar changeCurrentPage = {changeCurrentPage} currentPage = {currentPage} />
