@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className = "container-fluid m-0 p-0 primary-background fixed-bottom fixed-top">
-      <div className = "page-margin primary-border fixed-bottom fixed-top">
+      <div className = "page-margin primary-border fixed-bottom fixed-top m-0 p-0">
 
         <div className = "navbar-position">
             < Navbar changeCurrentPage = {changeCurrentPage} currentPage = {currentPage} />
@@ -40,8 +40,8 @@ function App() {
           Braian Strak
         </div>
 
-        <div className = "col h-100 w-100 p-5 d-flex align-items-center justify-content-center flex-column">
-          <div className = "row main-content-wrapper test-border">
+        <div className = "col h-100 w-100 p-0 m-0 d-flex align-items-center justify-content-center flex-column">
+          <div className = "row main-content-wrapper">
             < PageContent page = {currentPage} />
           </div>
         </div>

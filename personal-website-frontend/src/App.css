@@ -93,7 +93,16 @@ button.selected_grow_box {
     .skill-wrapper{
         min-width: 80px;
         max-width: 80px;
-        height: 85px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 350px), (max-height: 400px) {
+    .skill-wrapper{
+        min-width: 80px;
+        max-width: 80px;
+        height: 90px;
+        margin: 5px;
     }
 }
 
@@ -170,7 +179,7 @@ h4 {
 
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 460px), (max-height: 400px) {
     h1 {
       font-size: 1.6em;  
     }
@@ -198,14 +207,16 @@ h4 {
     margin: 17px;
 }
 
-@media screen and (max-width: 1085px) {
+@media screen and (max-width: 1085px), (max-height: 500px) {
     .main-content-wrapper{
         width:100%;
+        padding: 0px;
+        margin: 0px;
     }
 }
 
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 460px), (max-height: 460px) {
     .page-margin{
         margin:0px;
     }
